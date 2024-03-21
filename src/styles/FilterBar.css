@@ -1,0 +1,31 @@
+.filter-bar {
+    background-color: #add8e6; /* Light blue background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack the filter rows vertically */
+    gap: 20px; /* Adds space between the rows */
+  }
+  
+  .filter-row {
+    display: flex;
+    justify-content: center; /* Center the filters horizontally */
+    gap: 20px; /* Adds space between each filter */
+  }
+  
+  .filter-select, .filter-input, .search-button {
+    padding: 10px 15px; /* Larger padding for bigger elements */
+    font-size: 16px; /* Larger font size */
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .search-button {
+    background-color: blue; /* Blue background */
+    color: white; /* White text */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+  }
+  
+  .search-button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+  }
+  

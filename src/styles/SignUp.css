@@ -1,0 +1,110 @@
+.rowOne {
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+  }
+
+  .rowOneColOne {
+    background-color: rgb(172, 243, 172);
+    width: 55%;
+    margin-left: auto;
+
+  }
+
+  .rowOneColTwo {
+    background-color: rgb(224, 224, 224);
+    width: 45%;
+    margin-right: auto;
+  }
+
+  .carLogin {
+    width: 102%;
+    height: 100vh;
+  }
+
+  /* Style for each row */
+  .subRowOne {
+    background-color: white;
+    height: 5vh;
+  }
+
+  .subRowTwo {
+    background-color: rgb(255, 255, 255);
+    height: 25vh;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    align-self: center;
+  }
+
+  .subRowThree {
+    background-color: white;
+    height: 70vh;
+  }
+
+  /* Style for Back Button */
+  .backButton {
+    width: 8%;
+    height: 5vh;
+    border: none;
+    background-color: white;
+  }
+
+  .imageBack {
+    width: 120%;
+    height: 4vh;
+    /* margin: auto; */
+  }
+
+  /* Style for Logo */
+  .logo {
+    width: auto;
+    height: 25vh;
+    border-radius: 400px;
+  }
+
+  .divSubRowTwo {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  /* Styles for Login button */
+  .signUp {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: center;
+    background-color: rgba(33, 72, 192, 1);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 384px;
+    padding: 23px 60px;
+    height: 3vh;
+  }
+
+  /* Text bar style */
+  .textBar {
+    padding: 20px 80px 10px;
+    /* height: 5vh; */
+    width: 100%;
+    /* border-style: dotted; */
+    border-color: blue;
+    align-self: center;
+  
+  }
+  
+  /* Input Bar style */
+  .inputBar {
+    border-color: blue;
+    border-width: 2px;
+    height: 9vh;
+  }
