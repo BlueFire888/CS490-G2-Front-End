@@ -1,0 +1,19 @@
+/* Styles for 2 rows */
+.rowOne {
+    justify-content: center;
+    background-color: aqua;
+    width: 100%;
+    height: 50vh;
+}
+
+.rowTwo {
+    justify-content: center;
+    background-color: orange;
+    width: 100%;
+    height: 43vh;
+}
+
+.rowOneColOne {
+    justify-content: center;
+    ;
+}
