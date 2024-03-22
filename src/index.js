@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 //Added by Krishna
-import LandingPage from './components/LandingPage'
+import LandingPage from './pages/LandingPage'
 
 import {
   createBrowserRouter,

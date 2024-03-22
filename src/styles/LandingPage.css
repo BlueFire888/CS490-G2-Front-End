@@ -70,6 +70,7 @@ font-family: 'Abel';
 .landing-mid-img{
     background-image: url("../images/landingpage-2.jpeg");
     background-position: center;
+
     background-repeat: no-repeat;
     background-size: cover;
     width:80%;
