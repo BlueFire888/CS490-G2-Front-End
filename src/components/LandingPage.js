@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container , Row, Col} from 'react-bootstrap';
+import { Container , Row, Col, Button} from 'react-bootstrap';
 import '../styles/LandingPage.css'
-import landingcar from '../images/landing-page-img.jpg'
 function LandingPage(){
 
     return(
@@ -18,11 +17,20 @@ function LandingPage(){
                             Skyline Dealership
                         </Col>
                     </Row>
+                    <Row>
+                        <Col className='explore-skyline-statement'>
+                        A great dealership experience at convenience from your house
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='explore-button-area'>
+                        <Button className='explore-button'>Explore</Button>
+                        </Col>
+                    </Row>
                 </Container>
-                <Col xs={4} className='landing-top-r'></Col>
+                <Col xs={4} className='landing-top-r'><Button className='top-r-button'>Sign Up</Button></Col>
             </Row>
         </Container>
-   
 
         </div>
     );

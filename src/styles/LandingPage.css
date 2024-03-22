@@ -12,6 +12,11 @@
         .landing-top-r{
             left: 0px;
             background-color: lightgray;
+            text-align: right;
+            padding-top: 1vh;
+            top-r-button{
+                top:1vh;
+            }
         }
         .landing-top-photo{
             position:fixed;
@@ -40,7 +45,21 @@
 }
 
 .explore-skyline{
+    padding-top: 2vh;
     text-align: center;
+    font-size: 4vh;
+    height:10vh;
+}
+.explore-skyline-statement{
+    text-align: center;
+    font-size: 2.5vh;
+    height:16vh;
+}
+.explore-button-area{
+    text-align: center;
+    .explore-button{
+        width: 50%;
+    }
 }
 
 div {
