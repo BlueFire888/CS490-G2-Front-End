@@ -4,6 +4,7 @@
     width: 100%;
     height: 100vh;
     padding: 0;
+    position: relative;
 
     .landing-top{
         margin: auto;
@@ -19,7 +20,7 @@
             }
         }
         .landing-top-photo{
-            position:fixed;
+            position:absolute;
             background-image: url("../images/landing-page-img.jpg");
             background-position: center;
             background-repeat: no-repeat;
@@ -32,7 +33,7 @@
         }
         .landing-top-explore{
             color:white;
-            position: fixed;
+            position: absolute;
             background-color: rgba(0,0,0,0.2);
             top:35vh;
             left: 60%;
@@ -64,4 +65,19 @@
 
 div {
 font-family: 'Abel';
+}
+
+.landing-mid-img{
+    background-image: url("../images/landingpage-2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:80%;
+    height: 90%;
+}
+.landing-mid-feature{
+    height: 50vh;
+    Col{
+        vertical-align: middle;
+    }
 }
