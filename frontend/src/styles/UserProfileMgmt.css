@@ -1,0 +1,30 @@
+.profileRow {
+    background-color: rgb(231, 231, 231);
+    height: 93vh;
+    width: 100.5%;
+}
+
+.middleCol {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+.updateButton {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: center;
+    background-color: rgba(33, 72, 192, 1);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 384px;
+    padding: 23px 0px;
+    height: 3vh;
+  }

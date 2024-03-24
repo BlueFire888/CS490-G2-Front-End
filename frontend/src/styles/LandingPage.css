@@ -1,0 +1,28 @@
+.landing{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+
+    .landing-top{
+        margin: auto;
+        width: 100%;
+        height: 100vh;
+        .landing-top-r{
+            width:100%;
+            left: 0px;
+            background-color: lightgray;
+        }
+        .landing-top-photo{
+            position: absolute;
+            width: 909px;
+            height: 708.24px;
+            left: 3px;
+            top: 124.75px;
+
+            background-color: aqua;
+
+        }
+    }
+}
