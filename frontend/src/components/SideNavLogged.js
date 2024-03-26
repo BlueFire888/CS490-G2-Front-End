@@ -35,4 +35,11 @@ export const SideNav = [{
     path : '/UserProfileMgmt',
     icon : <RiAccountPinCircleFill/>,
     cName: 'nav-text'
-}]
+}, 
+{
+    title: 'My Garage',
+    path : '/CustomerGarage',
+    icon : <AiFillHome/>,
+    cName: 'nav-text'
+}
+]

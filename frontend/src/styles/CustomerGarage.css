@@ -1,0 +1,11 @@
+.garage-cars{
+    margin-top: 3vh;
+    gap:20px;
+}
+.garage-car-card{
+    width:180px;
+    height:230px;
+}
+.garage-car-col{
+    justify-content: center;
+}

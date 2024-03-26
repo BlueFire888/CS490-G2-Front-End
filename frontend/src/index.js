@@ -19,6 +19,9 @@ import {
 } from "react-router-dom";
 import CustomerPurchaseHistory from './pages/CustomerPurchaseHistory';
 import UserProfileMgmt from './pages/UserProfileMgmt';
+// Added from here 
+import CustomerGarage from './pages/CustomerGarage';
+// To here
 
 const router = createBrowserRouter([
   {
@@ -45,6 +48,14 @@ const router = createBrowserRouter([
   {
     path: "App/:userId",
     element: <App/>
+  },
+  {
+    path: "CustomerGarage",
+    element: <CustomerGarage />
+  },
+  {
+    path: "Landing",
+    element: <LandingPage/>
   }
 ]);
 // to here

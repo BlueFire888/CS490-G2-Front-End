@@ -4,25 +4,81 @@
     width: 100%;
     height: 100vh;
     padding: 0;
+    position: relative;
 
     .landing-top{
         margin: auto;
         width: 100%;
         height: 100vh;
         .landing-top-r{
-            width:100%;
             left: 0px;
             background-color: lightgray;
+            text-align: right;
+            padding-top: 1vh;
+            top-r-button{
+                top:1vh;
+            }
         }
         .landing-top-photo{
-            position: absolute;
-            width: 909px;
-            height: 708.24px;
-            left: 3px;
-            top: 124.75px;
-
-            background-color: aqua;
-
+            position:absolute;
+            background-image: url("../images/landing-page-img.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+            width:65%;
+            left: 5%;
+            top: 10vh;
+            z-index: 0;
         }
+        .landing-top-explore{
+            color:white;
+            position: absolute;
+            background-color: rgba(0,0,0,0.2);
+            top:35vh;
+            left: 60%;
+            height: 35vh;
+            width: 30%;
+            z-index: 1;
+            
+        }
+    }
+}
+
+.explore-skyline{
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 4vh;
+    height:10vh;
+}
+.explore-skyline-statement{
+    text-align: center;
+    font-size: 2.5vh;
+    height:16vh;
+}
+.explore-button-area{
+    text-align: center;
+    .explore-button{
+        width: 50%;
+    }
+}
+
+div {
+font-family: 'Abel';
+}
+
+.landing-mid-img{
+    background-image: url("../images/landingpage-2.jpeg");
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:80%;
+    height: 90%;
+}
+.landing-mid-feature{
+    height: 50vh;
+    Col{
+        vertical-align: middle;
     }
 }
