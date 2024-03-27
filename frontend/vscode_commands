@@ -1,0 +1,26 @@
+1. Make a new react app on local machine for testing
+
+npx create-react-app frontend
+cd frontend
+npm start
+
+2. install react bootstrap and other dependencies
+
+npm install react-bootstrap bootstrap
+
+3. Add this import line in App.js file to import CSS stylling for react bootstrap
+
+import 'bootstrap/dist/css/bootstrap. css';
+
+4. For icons images, we will use react-icons 
+
+npm install react-icons
+
+check website for secifics: https://www.npmjs.com/package/react-icons
+to search up any icon you need, use this website: https://react-icons.github.io/react-icons/
+
+5. to use link use
+
+ npm install react-router-dom
+
+

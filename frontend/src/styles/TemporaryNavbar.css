@@ -1,0 +1,111 @@
+
+/*all div font type = Abel*/
+div {
+    font-family: 'Abel';
+  }
+  /*navbar css*/
+  .navbar {
+    background-color: #2148C0;
+    color : white;
+    width: 100%;
+    height : 7vh;
+    min-height: 50px;
+    padding: none;
+    margin:auto;
+    justify-content: flex-end;
+    /*css for a person logo and also the Welcome statement*/
+    .navbar-content{
+      padding:none;
+      margin: auto;
+      color: white;
+      font-size: 3vh;
+      width: 100%;
+      /*css fort navbar sidenav toggle / three bar symbol on navbar*/
+      .navbar-content-sidenav {
+        align-self: center;
+        width:fit-content;
+      };
+      /*css for three bars that toggles the sidenav*/
+      .navbar-content-statement {
+        align-self: center;
+        width:fit-content;
+  
+      };
+      .navbar-content-userlogo{
+        align-self: center;
+        width:fit-content;
+  
+      }
+      .navbar-content-seperator{
+        align-self: center;
+      }
+      /*div element that holds button, userd for signup button*/
+      .navbar-content-button{
+        align-content: end;
+        width:fit-content;
+        Button {
+          background-color: #9EDCFF;
+          color: black;
+        };
+      };
+    };
+  }
+  
+  /*side nav menu css- unctivated/hidden*/
+  .nav-menu {
+    background-color: #DADCE0;
+    width: 250px;
+    height : 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top:0px;
+    left: -100%;/*causes it to be out of page*/
+    padding-top: 25px;
+    transition: 550ms;
+  }
+  /*css for active side nav that appears after clicking toggle bars*/
+  .nav-menu-active{
+    background-color: #DADCE0;
+    width: 250px;
+    height : 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top:0px;
+    left: 0%;/*makes it appear on page*/
+    padding-top: 25px;
+    transition: 550ms;
+  }
+  /*all text within side-nav*/
+  .nav-text {
+    display: flex;
+    color: #575757;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    list-style: none;
+    height: 40px;
+    width: 250px;
+    font-size : 13px;
+  }
+  /*css for hovering on an option */
+  .nav-text:hover{
+    background-color: darkgrey;
+  }
+  
+  /*css for all icons in side nav*/
+  .nav-icons{
+    padding:8px 8px 8px 8px;
+  }
+  
+  /* Styles for sidenav buttons */
+  .sidenavButtons {
+    all: unset;
+  }
+  /*side nav close button css*/
+  .close-sidenav{
+    list-style: none;
+    color:#575757;
+    padding-left: 70%;
+  }
